@@ -1,0 +1,91 @@
+/*
+ * name: Catppuccin Moccha
+ * color-scheme: dark
+ */
+
+:root {
+  --body-bg: #313244;
+  --cms-bg: linear-gradient(170deg, #313244, #44475a);
+  --text-color: #cdd6f4;
+  --link-color: #cba6f7;
+  --quote-color: #89dceb;
+  --error-color: #f38ba8;
+  --success-color: #a6e3a1;
+  --highlight-color-bg: #44475a;
+  --highlight-color: #fab387;
+  --hr-border: 1px solid #7f849c;
+  --button-bg: #f5c2e7;
+  --code-bg: #45475a;
+  --button-color: #282a36;
+  --button-border: 1px solid #b4befe;
+  --button-focus-outline: 2px solid #a6adc8;
+  --button-disabled-bg: #45475a;
+  --button-disabled-color: #f9e2af;
+  --button-disabled-border: #44475a;
+  --button-danger-bg: #eba0ac;
+  --button-danger-color: #74c7ec;
+  --input-bg: #585b70;
+  --input-border: 1px solid #9399b2;
+  --input-color: #a6e3a1;
+  --input-focus-outline: 2px solid #585b70;
+  --input-disabled-bg: #181825;
+  --input-disabled-color: #f9e2af;
+  --input-placeholder-color: #a6e3a1;
+  --chat-input-bg: #313244;
+  --autocomplete-bg: #585b70;
+  --autocomplete-border: 2px solid #b4befe;
+  --autocomplete-focus-bg: #7f849c;
+  --ts-color: #f5e0dc;
+  --sidebar-left-bg: #11111b;
+  --sidebar-left-frozen-color: #b4befe;
+  --sidebar-left-text: #89dceb;
+  --sidebar-left-outline: #cba6f7 auto 3px;
+  --sidebar-left-border-bottom: #7f849c;
+  --sidebar-left-search-placeholder-color: #94e2d5;
+  --sidebar-left-search-focus-bg: #313244;
+  --sidebar-right-bg: var(--body-bg);
+  --sidebar-right-text: var(--text-color);
+  --tooltip-background: #bac2de;
+  --tooltip-color: #313244;
+
+  /* Catppuccin Highlight.scss */
+
+  --syntax-hl-base: #cdd6f4;
+  --syntax-hl-base-bg: #1e1e2e;
+  --syntax-hl-addition-bg: rgba(166, 227, 161, 0.15);
+  --syntax-hl-deletion-bg: rgba(243, 139, 168, 0.15);
+  --syntax-hl-attr: #89b4fa;
+  --syntax-hl-attribute: #a6e3a1;
+  --syntax-hl-built-in: #f38ba8;
+  --syntax-hl-bullet: #94e2d5;
+  --syntax-hl-comment: #9399b2;
+  --syntax-hl-doctag: #f38ba8;
+  --syntax-hl-class: #f9e2af;
+  --syntax-hl-code: #a6e3a1;
+  --syntax-hl-code-bg: #1e1e2e;
+  --syntax-hl-formula: #94e2d5;
+  --syntax-hl-function: #89b4fa;
+  --syntax-hl-keyword: #cba6f7;
+  --syntax-hl-literal: #fab387;
+  --syntax-hl-meta: #fab387;
+  --syntax-hl-meta-keyword: #fab387;
+  --syntax-hl-meta-string: #a6e3a1;
+  --syntax-hl-name: #cba6f7;
+  --syntax-hl-number: #fab387;
+  --syntax-hl-params: #cdd6f4;
+  --syntax-hl-quote: #a6e3a1;
+  --syntax-hl-regexp: #f5c2e7;
+  --syntax-hl-section: #89b4fa;
+  --syntax-hl-selector-attr: #cba6f7;
+  --syntax-hl-selector-class: #94e2d5;
+  --syntax-hl-selector-id: #89b4fa;
+  --syntax-hl-selector-pseudo: #94e2d5;
+  --syntax-hl-selector-tag: #f9e2af;
+  --syntax-hl-string: #a6e3a1;
+  --syntax-hl-subst: #a6adc8;
+  --syntax-hl-symbol: #f2cdcd;
+  --syntax-hl-template-variable: #f2cdcd;
+  --syntax-hl-title: #89b4fa;
+  --syntax-hl-type: #f9e2af;
+  --syntax-hl-variable: #cba6f7;
+}
