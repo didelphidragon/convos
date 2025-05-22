@@ -55,7 +55,7 @@ sub public_url {
   my $self = shift;
   my $id   = $self->id;
   $id .= '.' . $self->_ext if shift;
-  return $self->user->core->web_url(join '/', 'file', $self->user->uid, $id)->to_abs;
+  return $self->user->core->web_url(join '/', 'file', $self->user->uid, $id, $self->_ext)->to_abs;
 }
 
 sub save_p {
